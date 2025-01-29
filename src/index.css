@@ -1,0 +1,17 @@
+/* Remove the old @import lines and use @tailwind directives instead */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Loader Styles */
+.loader {
+  border-top-color: #3498db;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
